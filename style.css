@@ -1,0 +1,18 @@
+ <span>
+        <a href="https://en.wikipedia.org/wiki/Indira_Gandhi" target="_blank">
+            <img id="picture" src="https://www.oneindia.com/politicians/image/302x100x402x2/indira-gandhi-71684.jpg">
+        </a>
+    </span>
+            <span>
+        <a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam" target="_blank">
+            <img id="picture" src="https://img.etimg.com/thumb/msid-52146614,width-300,imgsize-156411,,resizemode-4,quality-100/.jpg">
+            
+        </a>
+    </span>
+img {
+    transition: transform .2s;
+    border:10px solid #AAAAAA;
+}
+img:hover {
+    transform: scale(0.9);
+}
